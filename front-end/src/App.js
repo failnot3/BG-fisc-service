@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Route, Navigate, Routes } from "react-router-d
 import MainNavigation from "./components/sharedComponents/Navigation/MainNavigation";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
-import Demo from "./pages/Demo";
+
 import CompanyDetails from "./pages/CompanyDetails";
+import Dash from "./pages/Dash";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
           <Route exact path='/Login' element={<Login />} />
-          <Route exact path='/demo' element={<Demo />} />
+          <Route exact path='/demo' element={<Dash />} />
           <Route exact path='/companyDetails' element={<CompanyDetails />} />
         </Routes>
       </main>
