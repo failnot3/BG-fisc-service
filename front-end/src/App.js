@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Navigate, Routes } from "react-router-dom";
 
 import MainNavigation from "./components/sharedComponents/Navigation/MainNavigation";
-import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 
 import CompanyDetails from "./pages/CompanyDetails";

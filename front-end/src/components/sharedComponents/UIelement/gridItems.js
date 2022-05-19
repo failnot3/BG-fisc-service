@@ -13,7 +13,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Фирмени данни
+              Всички ФУ
             </Typography>
           </Box>
         </Paper>
@@ -22,7 +22,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Стоки / Продукти
+              Справки ФУ
             </Typography>
           </Box>
         </Paper>
@@ -31,7 +31,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Партньори
+              Изтичащи договори
             </Typography>
           </Box>
         </Paper>
@@ -40,7 +40,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center", alignItems: "center" }}>
             <Typography variant='h6' component='h4'>
-              Издаване на фактура
+              Редакция на бланка
             </Typography>
           </Box>
         </Paper>
@@ -49,7 +49,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Потребители
+              Данни нов клиент
             </Typography>
           </Box>
         </Paper>
@@ -58,7 +58,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Продажби
+              Добавяне на нов модел ФУ
             </Typography>
           </Box>
         </Paper>
