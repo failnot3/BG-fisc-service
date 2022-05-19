@@ -14,9 +14,8 @@ function App() {
       <MainNavigation />
       <main>
         <Routes>
-          <Route exact path='/' element={<Dashboard />} />
+          <Route exact path='/' element={<Dash />} />
           <Route exact path='/Login' element={<Login />} />
-          <Route exact path='/demo' element={<Dash />} />
           <Route exact path='/companyDetails' element={<CompanyDetails />} />
         </Routes>
       </main>
