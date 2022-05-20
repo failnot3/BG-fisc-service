@@ -6,6 +6,7 @@ import MainNavigation from "./components/sharedComponents/Navigation/MainNavigat
 
 import CompanyDetails from "./pages/CompanyDetails";
 import Dash from "./pages/Dash";
+import AdminDash from "./pages/Admin"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Routes>
           <Route exact path='/' element={<Dash />} />
+          <Route exact path='/admin' element={<AdminDash />} />
           <Route exact path='/companyDetails' element={<CompanyDetails />} />
         </Routes>
       </main>
