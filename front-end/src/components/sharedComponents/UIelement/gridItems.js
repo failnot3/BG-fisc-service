@@ -40,7 +40,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center", alignItems: "center" }}>
             <Typography variant='h6' component='h4'>
-              Редакция на бланка
+              ...
             </Typography>
           </Box>
         </Paper>
@@ -58,7 +58,7 @@ const GridItem = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Добавяне на нов модел ФУ
+              ...
             </Typography>
           </Box>
         </Paper>
