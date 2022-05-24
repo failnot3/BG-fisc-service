@@ -30,18 +30,6 @@ mongoose
     })
   );
 
-// app.post("/insert", async (req, res) => {
-//   const foodName = req.body.foodName;
-//   const days = req.body.days;
-//   const food = new FoodModel({ foodName: foodName, daysSinceIAte: days });
-
-//   try {
-//     await food.save();
-//   } catch (err) {
-//     console.log(err);
-//   }
-// });
-
 app.get("/add-new-client", (req, res) => {
   const clientCompDet = new ClientCompanyDetails({
     companyName: "Pesho",
@@ -58,24 +46,22 @@ app.get("/add-new-client", (req, res) => {
     });
 });
 
-// app.put("/update", async (req, res) => {
-//   const newFoodName = req.body.newFoodName;
-//   const id = req.body.id;
+app.get("/all-clients", (req, res) => {
+  ClientCompanyDetails.find()
+    .then((result) => {
+      res.send(result);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
 
-//   try {
-//     await FoodModel.findById(id, (err, updatedFood) => {
-//       updatedFood.foodName = newFoodName;
-//       updatedFood.save();
-//       res.send("update");
-//     });
-//   } catch (err) {
-//     console.log(err);
-//   }
-// });
-
-// app.delete("/delete/:id", async (req, res) => {
-//   const id = req.params.id;
-
-//   await FoodModel.findByIdAndRemove(id).exec();
-//   res.send("deleted");
-// });
+app.get("/specific-client", (req, res) => {
+  ClientCompanyDetails.findById("628cf9b5b9738ca4c3623070")
+    .then((result) => {
+      res.send(result);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
