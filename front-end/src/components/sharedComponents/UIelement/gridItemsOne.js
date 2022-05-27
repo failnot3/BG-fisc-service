@@ -3,6 +3,7 @@ import * as React from "react";
 import Paper from "@mui/material/Paper";
 import { Box } from "@mui/material";
 import Grid from "@mui/material/Grid";
+import Button from "@mui/material/Button";
 
 import { Typography } from "@mui/material";
 
@@ -14,6 +15,7 @@ const GridItemAdmin = () => {
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
               Добавяне на нов модел ФУ
+              <Button variant='contained'>Добавяне на нов модел ФУ</Button>
             </Typography>
           </Box>
         </Paper>
@@ -23,6 +25,7 @@ const GridItemAdmin = () => {
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
               Добавяне на нова фирма
+              <Button variant='contained'>Добавяне на нов клиент</Button>
             </Typography>
           </Box>
         </Paper>
