@@ -10,6 +10,9 @@ import { Typography } from "@mui/material";
 function myFunction() {
   alert("I am an alert box!");
 }
+function myFunction1() {
+  window.open("http://localhost:3000/AllFiscalDevices", "_self");
+}
 
 const GridItem = () => {
   return (
@@ -19,7 +22,9 @@ const GridItem = () => {
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
               Списък с всички фискални устройства
-              <Button variant='contained'>Всички Фискални Устройства</Button>
+              <Button variant='contained' onClick={myFunction1}>
+                Всички Фискални Устройства
+              </Button>
             </Typography>
           </Box>
         </Paper>
