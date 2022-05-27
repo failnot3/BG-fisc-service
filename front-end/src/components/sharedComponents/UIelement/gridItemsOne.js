@@ -34,7 +34,8 @@ const GridItemAdmin = () => {
         <Paper elevation={2}>
           <Box padding={3} sx={{ textAlign: "center" }}>
             <Typography variant='h6' component='h4'>
-              Редакция на бланки
+              Редакция на бланка
+              <Button variant='contained'>Редакция на бланка</Button>
             </Typography>
           </Box>
         </Paper>
