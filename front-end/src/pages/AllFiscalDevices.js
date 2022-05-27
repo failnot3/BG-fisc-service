@@ -19,10 +19,91 @@ const rows = [
     "Бул. Ян Хунияди 53, ет.2, ап.4",
     "999666999"
   ),
+  createData(
+    "Datecs FP 650",
+    "123456",
+    "654321",
+    "Бул. В.Варненчик 83, ет.5, ап.19",
+    "999666999"
+  ),
+  createData("Eclair", 262, 16.0, 24, 6.0),
+  createData("Cupcake", 305, 3.7, 67, 4.3),
+  createData("Gingerbread", 356, 16.0, 49, 3.9),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
   createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
   createData("Eclair", 262, 16.0, 24, 6.0),
   createData("Cupcake", 305, 3.7, 67, 4.3),
   createData("Gingerbread", 356, 16.0, 49, 3.9),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
+  createData("Eclair", 262, 16.0, 24, 6.0),
+  createData("Cupcake", 305, 3.7, 67, 4.3),
+  createData("Gingerbread", 356, 16.0, 49, 3.9),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
+  createData("Eclair", 262, 16.0, 24, 6.0),
+  createData("Cupcake", 305, 3.7, 67, 4.3),
+  createData("Gingerbread", 356, 16.0, 49, 3.9),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
+  createData(
+    "Datecs FP 150",
+    "123456",
+    "654321",
+    "Бул. Ян Хунияди 53, ет.2, ап.4",
+    "999666999"
+  ),
 ];
 
 export default function AllFiscalDevices() {
@@ -36,6 +117,7 @@ export default function AllFiscalDevices() {
             <TableCell align='right'>Номер на фискална памет</TableCell>
             <TableCell align='right'>Адрес</TableCell>
             <TableCell align='right'>ЕИК на собственик</TableCell>
+            <TableCell align='right'>МОЛ</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -50,6 +132,7 @@ export default function AllFiscalDevices() {
               <TableCell align='right'>{row.calories}</TableCell>
               <TableCell align='right'>{row.fat}</TableCell>
               <TableCell align='right'>{row.carbs}</TableCell>
+              <TableCell align='right'>{row.protein}</TableCell>
               <TableCell align='right'>{row.protein}</TableCell>
             </TableRow>
           ))}
