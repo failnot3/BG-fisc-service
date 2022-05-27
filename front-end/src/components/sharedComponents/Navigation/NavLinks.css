@@ -11,7 +11,7 @@
 }
 
 .nav-links li {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .nav-links a {
@@ -33,7 +33,7 @@
   border: 1px solid #292929;
   color: #292929;
   background: transparent;
-  padding: 0.7rem;
+  padding: 0.8rem;
   font: inherit;
 }
 

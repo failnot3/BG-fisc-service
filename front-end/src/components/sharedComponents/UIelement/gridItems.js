@@ -18,16 +18,14 @@ const GridItem = () => {
   return (
     <>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              Списък с всички фискални устройства
-              <Button variant='contained' onClick={myFunction1}>
-                Всички Фискални Устройства
-              </Button>
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            Списък с всички фискални устройства
+            <Button variant='contained' onClick={myFunction1}>
+              Всички Фискални Устройства
+            </Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
         <Paper elevation={2}>
