@@ -13,7 +13,8 @@ import AdminDash from "./pages/Admin";
 
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Button from "@mui/material/Button";
+
+import PageNotFound from "./pages/NotFound404";
 
 import ResponsiveAppBar from "./components/sharedComponents/Navigation/ResponsiveAppBar";
 
@@ -52,6 +53,7 @@ function App() {
               <Route exact path='/companyDetails' element={<CompanyDetails />} />
               <Route exact path='/AllFiscalDevices' element={<AllFiscalDevices />} />
               <Route exact path='/DemoDarkMode' element={<DarkModePage />} />
+              <Route exact path='/*' element={<PageNotFound />} />
             </Routes>
           </main>
         </Router>

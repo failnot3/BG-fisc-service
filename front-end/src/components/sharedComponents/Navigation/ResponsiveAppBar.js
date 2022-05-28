@@ -11,6 +11,8 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
+import { Link } from "react-router-dom";
+
 const pages = [
   { pageName: "Аминистрация", pageURL: "admin" },
   { pageName: "Компания", pageURL: "companyDetails" },
@@ -90,7 +92,14 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page.pageName} onClick={handleCloseNavMenu}>
-                  <Typography textAlign='center'>{page.pageName}</Typography>
+                  <Typography textAlign='center'>
+                    <Link
+                      style={{ textDecoration: "none", color: "black" }}
+                      to={`/${page.pageURL}`}
+                    >
+                      {page.pageName}
+                    </Link>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -117,11 +126,15 @@ const ResponsiveAppBar = () => {
             {pages.map((page) => (
               <Button
                 key={page.pageName}
-                href={`/${page.pageURL}`}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page.pageName}
+                <Link
+                  style={{ textDecoration: "none", color: "white" }}
+                  to={`/${page.pageURL}`}
+                >
+                  {page.pageName}
+                </Link>
               </Button>
             ))}
           </Box>
