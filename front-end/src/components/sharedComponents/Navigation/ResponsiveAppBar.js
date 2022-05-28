@@ -18,7 +18,7 @@ const pages = [
   { pageName: "Компания", pageURL: "companyDetails" },
 ];
 
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+const settings = [{ pageName: "Компания", pageURL: "companyDetails" }];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -47,7 +47,6 @@ const ResponsiveAppBar = () => {
             variant='h6'
             noWrap
             component='a'
-            href='/'
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -58,7 +57,11 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            BGFiscalService
+            <Tooltip title='Върни се на началната страница'>
+              <Link style={{ textDecoration: "none", color: "white" }} to={"/"}>
+                BGFiscalService
+              </Link>
+            </Tooltip>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -108,7 +111,6 @@ const ResponsiveAppBar = () => {
             variant='h5'
             noWrap
             component='a'
-            href='/'
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -120,7 +122,9 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            BGFiscalService
+            <Link style={{ textDecoration: "none", color: "white" }} to={"/"}>
+              BGFiscalService
+            </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
@@ -162,8 +166,15 @@ const ResponsiveAppBar = () => {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign='center'>{setting}</Typography>
+                <MenuItem key={setting.pageName} onClick={handleCloseUserMenu}>
+                  <Typography textAlign='center'>
+                    <Link
+                      style={{ textDecoration: "none", color: "black" }}
+                      to={`/${setting.pageURL}`}
+                    >
+                      {setting.pageName}
+                    </Link>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Navigate, Routes } from "react-router-d
 
 import AllFiscalDevices from "./pages/AllFiscalDevices";
 
+import ServiceCompanyDetails from "./pages/ServiceCompanyDetails";
+
 import DarkModePage from "./components/DarkMode/DarkMode";
 
 import CompanyDetails from "./pages/CompanyDetails";
@@ -53,6 +55,11 @@ function App() {
               <Route exact path='/companyDetails' element={<CompanyDetails />} />
               <Route exact path='/AllFiscalDevices' element={<AllFiscalDevices />} />
               <Route exact path='/DemoDarkMode' element={<DarkModePage />} />
+              <Route
+                exact
+                path='/ServiceCompanyDetails'
+                element={<ServiceCompanyDetails />}
+              />
               <Route exact path='/*' element={<PageNotFound />} />
             </Routes>
           </main>
