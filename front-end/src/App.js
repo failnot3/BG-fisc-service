@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Navigate, Routes } from "react-router-d
 
 import AllFiscalDevices from "./pages/AllFiscalDevices";
 
-import Dashboard from "./pages/Dashboard";
+import DarkModePage from "./components/DarkMode/DarkMode";
 
 import CompanyDetails from "./pages/CompanyDetails";
 import Dash from "./pages/Dash";
@@ -51,11 +51,10 @@ function App() {
               <Route exact path='/admin' element={<AdminDash />} />
               <Route exact path='/companyDetails' element={<CompanyDetails />} />
               <Route exact path='/AllFiscalDevices' element={<AllFiscalDevices />} />
-              <Route exact path='/DemoDash' element={<Dashboard />} />
+              <Route exact path='/DemoDarkMode' element={<DarkModePage />} />
             </Routes>
           </main>
         </Router>
-        <Button onClick={() => setLight((prev) => !prev)}>Toggle Theme</Button>
       </ThemeProvider>
     </>
   );

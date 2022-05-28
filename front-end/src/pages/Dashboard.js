@@ -10,9 +10,6 @@ import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import Badge from "@material-ui/core/Badge";
-import MenuIcon from "@material-ui/icons/Menu";
-import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import NotificationsIcon from "@material-ui/icons/Notifications";
 
 const drawerWidth = 240;
 
@@ -128,9 +125,7 @@ class Dashboard extends React.Component {
                 classes.menuButton,
                 this.state.open && classes.menuButtonHidden
               )}
-            >
-              <MenuIcon />
-            </IconButton>
+            ></IconButton>
             <Typography
               component='h1'
               variant='h6'
@@ -141,9 +136,7 @@ class Dashboard extends React.Component {
               Dashboard
             </Typography>
             <IconButton color='inherit'>
-              <Badge badgeContent={4} color='secondary'>
-                <NotificationsIcon />
-              </Badge>
+              <Badge badgeContent={4} color='secondary'></Badge>
             </IconButton>
           </Toolbar>
         </AppBar>
@@ -158,9 +151,7 @@ class Dashboard extends React.Component {
           open={this.state.open}
         >
           <div className={classes.toolbarIcon}>
-            <IconButton onClick={this.handleDrawerClose}>
-              <ChevronLeftIcon />
-            </IconButton>
+            <IconButton onClick={this.handleDrawerClose}></IconButton>
           </div>
           <Divider />
         </Drawer>
