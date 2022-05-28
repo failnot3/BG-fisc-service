@@ -145,7 +145,11 @@ const ResponsiveAppBar = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title='Отвори настройки'>
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <IconButton
+                style={{ textDecoration: "none", color: "white" }}
+                onClick={handleOpenUserMenu}
+                sx={{ p: 0 }}
+              >
                 Настройки
               </IconButton>
             </Tooltip>
