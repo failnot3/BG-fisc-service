@@ -45,42 +45,42 @@ const GridItem = () => {
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            <Button variant='contained'>Данни за нов обект</Button>
+            <Button variant='contained'>Заявка нова фирма</Button>
           </Typography>
         </Box>
       </Grid>
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            <Button variant='contained'>Данни за нов обект</Button>
+            <Button variant='contained'>Промяна по текуща фирма</Button>
           </Typography>
         </Box>
       </Grid>
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            <Button variant='contained'>Данни за нов обект</Button>
+            <Button variant='contained'>...</Button>
           </Typography>
         </Box>
       </Grid>
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            <Button variant='contained'>Данни за нов обект</Button>
+            <Button variant='contained'>...</Button>
           </Typography>
         </Box>
       </Grid>
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            <Button variant='contained'>Данни за нов обект</Button>
+            <Button variant='contained'>...</Button>
           </Typography>
         </Box>
       </Grid>
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            <Button variant='contained'>Данни за нов обект</Button>
+            <Button variant='contained'>...</Button>
           </Typography>
         </Box>
       </Grid>
