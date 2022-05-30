@@ -17,8 +17,11 @@ function myFunction1() {
 const GridItemAdmin = () => {
   return (
     <>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained' onClick={myFunction1}>
               Редакция данни сервизна фирма
@@ -26,8 +29,11 @@ const GridItemAdmin = () => {
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained' onClick={myFunction}>
               Редакция бланка договор
@@ -35,50 +41,71 @@ const GridItemAdmin = () => {
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Редакция бланка свидетелство</Button>
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Добавяне на нов тип ФУ</Button>
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Данни за нов обект</Button>
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Данни за нов обект</Button>
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Данни за нов обект</Button>
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Данни за нов обект</Button>
           </Typography>
         </Box>
       </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+      <Grid item xs={6} md={4}>
+        <Box
+          padding={3}
+          sx={{ textAlign: "center", justifyContent: "space-evenly" }}
+        >
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Данни за нов обект</Button>
           </Typography>
