@@ -20,7 +20,6 @@ const GridItem = () => {
       <Grid item xs={4}>
         <Box padding={3} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
-            Списък с всички фискални устройства
             <Button variant='contained' onClick={myFunction1}>
               Всички Фискални Устройства
             </Button>
@@ -28,80 +27,62 @@ const GridItem = () => {
         </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              Справки за конкретно фискално устройство
-              <Button variant='contained' onClick={myFunction}>
-                Справки Фискални Устройства
-              </Button>
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained' onClick={myFunction}>
+              Справки Фискални Устройства
+            </Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              Справки за изтичащи договори
-              <Button variant='contained'>Изтичащи договори</Button>
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Изтичащи договори</Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center", alignItems: "center" }}>
-            <Typography variant='h6' component='h4'>
-              ...
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Данни за нов обект</Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              <Button variant='contained'>Данни за нов обект</Button>
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Данни за нов обект</Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              ...
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Данни за нов обект</Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              ..
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Данни за нов обект</Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              ..
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Данни за нов обект</Button>
+          </Typography>
+        </Box>
       </Grid>
       <Grid item xs={4}>
-        <Paper elevation={2}>
-          <Box padding={3} sx={{ textAlign: "center" }}>
-            <Typography variant='h6' component='h4'>
-              ..
-            </Typography>
-          </Box>
-        </Paper>
+        <Box padding={3} sx={{ textAlign: "center" }}>
+          <Typography variant='h6' component='h4'>
+            <Button variant='contained'>Данни за нов обект</Button>
+          </Typography>
+        </Box>
       </Grid>
     </>
   );
