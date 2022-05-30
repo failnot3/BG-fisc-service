@@ -92,7 +92,7 @@ const rows = [
     "DY555444"
   ),
   createData(
-    "05.08.2022",
+    "27.05.2022",
     417,
     "Пешо Петров ЕТ",
     111999666,
@@ -103,7 +103,7 @@ const rows = [
     "DY555444"
   ),
   createData(
-    "08.07.2022",
+    "27.05.2022",
     418,
     "Пешо Петров ЕТ",
     111999666,
@@ -114,23 +114,12 @@ const rows = [
     "DY555444"
   ),
   createData(
-    "15.04.2023",
+    "27.05.2022",
     419,
     "Пешо Петров ЕТ",
     111999666,
     "гр. Петрич, ул.Солун 40",
     "гр. Петрич, ул.Солун 40",
-    "Datecs FP 650",
-    4565567,
-    "DY555444"
-  ),
-  createData(
-    "28.06.2023",
-    420,
-    "Петър Петров АД",
-    111999666,
-    "гр. Петрич, ул.Владислав Варненчик БЛ.134, ВХ.А",
-    "гр. Петрич, ул.Ян Палах 123",
     "Datecs FP 650",
     4565567,
     "DY555444"
@@ -481,7 +470,7 @@ export default function EnhancedTable() {
           </Table>
         </TableContainer>
         <TablePagination
-          rowsPerPageOptions={[10, 15, 25, 35]}
+          rowsPerPageOptions={[5, 10, 25]}
           component='div'
           count={rows.length}
           rowsPerPage={rowsPerPage}
