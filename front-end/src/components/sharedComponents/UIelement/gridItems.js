@@ -50,35 +50,14 @@ const GridItem = () => {
         </Box>
       </Grid>
       <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+        <Box padding={4} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>Промяна по текуща фирма</Button>
           </Typography>
         </Box>
       </Grid>
       <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
-          <Typography variant='h6' component='h4'>
-            <Button variant='contained'>...</Button>
-          </Typography>
-        </Box>
-      </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
-          <Typography variant='h6' component='h4'>
-            <Button variant='contained'>...</Button>
-          </Typography>
-        </Box>
-      </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
-          <Typography variant='h6' component='h4'>
-            <Button variant='contained'>...</Button>
-          </Typography>
-        </Box>
-      </Grid>
-      <Grid item xs={4}>
-        <Box padding={3} sx={{ textAlign: "center" }}>
+        <Box padding={4} sx={{ textAlign: "center" }}>
           <Typography variant='h6' component='h4'>
             <Button variant='contained'>...</Button>
           </Typography>
