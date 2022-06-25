@@ -72,7 +72,7 @@ const rows = [
   createData(
     "27.05.2022",
     415,
-    "Пешо Петров ЕТ",
+    "Пешо Георгиев ЕТ",
     111999666,
     "гр. Петрич, ул.Солун 40",
     "гр. Петрич, ул.Солун 40",
@@ -655,7 +655,7 @@ export default function EnhancedTable() {
             <TableBody>
               {/* if you don't need to support IE11, you can replace the `stableSort` call with:
                  rows.slice().sort(getComparator(order, orderBy)) */}
-              {stableSort(rows, getComparator(order, orderBy))
+              {rows.slice().sort(getComparator(order, orderBy))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row, index) => {
                   const isItemSelected = isSelected(row.name);
